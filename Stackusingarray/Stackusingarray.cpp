@@ -17,6 +17,12 @@ public:
 	int push() {
 		int element;
 		cin >> element;
+		if (top == 4) { //step 1
+			cout << "Number of data exceeds the lisit." << endl;
+			return;
+		}
+
+	
 
 	}
 };
