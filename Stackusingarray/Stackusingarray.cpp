@@ -22,7 +22,10 @@ public:
 			return;
 		}
 
-	
+		top++;
+		stack_array[top] = element; //step 3
+		cout << endl;
+		cout << element << " ditambahkan(pushed)" << endl;
 
 	}
 };
