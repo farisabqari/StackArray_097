@@ -19,7 +19,7 @@ public:
 		cin >> element;
 		if (top == 4) { //step 1
 			cout << "Number of data exceeds the lisit." << endl;
-			return;
+			return 0;
 		}
 
 		top++;
@@ -54,6 +54,11 @@ public:
 		}
 	}
 };
+int main() {
+	StackArray s;
+	char ch;
+
+}
 
 
 	
