@@ -15,6 +15,8 @@ public:
 	}
 
 	int push() {
+		int element;
+		cin >> element;
 
 	}
 };
